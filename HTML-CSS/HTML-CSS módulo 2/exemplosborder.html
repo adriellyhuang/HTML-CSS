@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+      <style>
+
+          p#ex1 {
+               border-style: dotted;
+               border-color: rgba(214, 226, 43, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               width: 300px;
+               margin: auto;
+          }
+
+          p#ex2 {
+               border-style: dashed;
+               border-color: rgba(43, 61, 226, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          p#ex3 {
+               border-style: solid;
+               border-color: rgba(218, 26, 90, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          p#ex4 {
+               border-style: double;
+               border-color: rgba(121, 0, 235, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          p#ex5 {
+               border-style: groove;
+               border-color: rgba(226, 43, 43, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          p#ex6 {
+               border-style: ridge;
+               border-color: rgba(226, 110, 43, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          p#ex7 {
+               border-style: inset;
+               border-color: rgba(43, 226, 180, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          p#ex8 {
+               border-style: outset;
+               border-color: rgba(220, 43, 226, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          /*EXEMPLOS DE OUTLINE */
+
+          p.ex1 {
+               /* BORDA */
+               border-style: dotted;
+               border-color: rgba(214, 226, 43, 0.575);
+               border-width: 12px;
+               /* PADDING */
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: outset;
+               outline-color: palegreen;
+               outline-width: 8PX;
+          }
+
+          p.ex2 {
+              /* BORDA */
+               border-style: dashed;
+               border-color: rgba(43, 61, 226, 0.575);
+               border-width: 12px;
+               /* PADDING */
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: inset;
+               outline-color: salmon;
+               outline-width: 8PX;
+          }
+
+          p.ex3 {
+               border-style: solid;
+               border-color: rgba(218, 26, 90, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: ridge;
+               outline-color: forestgreen;
+               outline-width: 8PX;
+          }
+
+          p.ex4 {
+               border-style: double;
+               border-color: rgba(121, 0, 235, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: groove;
+               outline-color: aqua;
+               outline-width: 8PX;
+          }
+
+          p.ex5 {
+               border-style: groove;
+               border-color: rgba(226, 43, 43, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: double;
+               outline-color: rgb(9, 255, 0);
+               outline-width: 8PX;
+          }
+
+          p.ex6 {
+               border-style: ridge;
+               border-color: rgba(226, 110, 43, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: solid;
+               outline-color: rgb(208, 255, 0) ;
+               outline-width: 8PX;
+
+          }
+
+          p.ex7 {
+               border-style: inset;
+               border-color: rgba(43, 226, 180, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: dashed;
+               outline-color: blue;
+               outline-width: 8PX;
+
+          }
+
+          p.ex8 {
+               border-style: outset;
+               border-color: rgba(220, 43, 226, 0.575);
+               border-width: 12px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* MARGEM */
+               margin: auto;
+               /* OUTLINE */
+               outline-style: dotted;
+               outline-color: rgb(0, 128, 117);
+               outline-width:  8PX;
+
+          }
+
+          p#PEX {
+              text-align: center;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-size: 30PX;
+          }
+
+      </style>
+
+</head>
+<body>
+    
+     <p id="ex1">EXEMPLO DE BORDA PONTILHADA</p>
+     <br>
+     <p id="ex2">EXEMPLO DE BORDA TRACEJADA</p>
+     <br>
+     <p id="ex3">EXEMPLO DE BORDA CONTINUA </p>
+     <br>
+     <p id="ex4">EXEMPLO DE BORDA DUPLA </p>
+     <br>
+     <p id="ex5">EXEMPLO DE BORDA ENTALHADA </p>
+     <br>
+     <p id="ex6">EXEMPLO DE BORDA EM RESSALTO </p>
+     <br>
+     <p id="ex7">EXEMPLO DE BORDA EM BAIXO RELEVO </p>
+     <br>
+     <p id="ex8">EXEMPLO DE BORDA EM ALTO RELEVO </p>
+     <BR>
+     <p id="PEX">EXEMPLOS DE ESTILOS DO OUTLINE(elemento entre a borda e a margem)</p>
+     <BR>
+     <p class="ex1">EXEMPLO DE OUTLINE PONTILHADO</p>
+     <br>
+     <p class="ex2">EXEMPLO DE OUTLINE TRACEJADA</p>
+     <br>
+     <p class="ex3">EXEMPLO DE OUTLINE CONTINUA</p>
+     <br>
+     <p class="ex4">EXEMPLO DE OUTLINE DUPLA</p>
+     <br>
+     <p class="ex5">EXEMPLO DE OUTLINE ENTALHADA</p>
+     <br>
+     <p class="ex6">EXEMPLO DE OUTLINE EM RESSALTO</p>
+     <br>
+     <p class="ex7">EXEMPLO DE OUTLINE EM BAIXO RELEVO</p>
+     <br>
+     <p class="ex8">EXEMPLO DE OUTLINE EM ALTO RELEVO</p>
+
+</body>
+</html>
