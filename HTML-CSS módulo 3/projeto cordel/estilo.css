@@ -4,75 +4,93 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
     :root{
-     --fonte1: verdana, geneva, tahoma, sans-serif ;
-     --fonte2: 'Passion One', cursive;
-     --fonte3: 'Sriracha', cursive;
+         --fonte1: verdana, geneva, tahoma, sans-serif ;
+         --fonte2: 'Passion One', cursive;
+         --fonte3: 'Sriracha', cursive;
     }
 
     *{
-      margin: 0px;
-      padding: 0px;  
-      font-size: 1em;
+         margin: 0px;
+         padding: 0px;  
+         font-size: 1em;
     }
 
     html, body{
-     min-height: 100vh;
-     background-color: darkgray;
-     font-family: var(--fonte1);
+         min-height: 100vh;
+         background-color: darkgray;
+         font-family: var(--fonte1);
     }
 
     header{
-     background-color: black;
-     color: white;   
-     text-align: center;
+         background-color: black;
+         color: white;   
+         text-align: center;
     }
 
     header > h1{
-     padding-top: 30px;
-     font-variant: small-caps;
-     font-family: var(--fonte2);
-     font-size: 10vw;
+         padding-top: 30px;
+         font-variant: small-caps;
+         font-family: var(--fonte2);
+         font-size: 10vw;
     }
 
     header > p{
-     padding: 30px;
+         padding: 30px;
     }
 
     a {
-      color: white;
-      text-decoration: none;
-      font-weight: bolder;
+         color: white;
+         text-decoration: none;
+         font-weight: bolder;
     }
 
     a:hover{
-      text-decoration: underline;
+         text-decoration: underline;
     }
 
     section {
-        padding: 10vh 0vh 10vh 5vh;
-        line-height: 2em;
-        font-family: var(--fonte3);
-        font-size: 3.5vw;
+         padding: 10vh 0vh 10vh 5vh;
+         line-height: 2em;
+         font-family: var(--fonte3);
+         font-size: 3.5vw;
+    }
+
+    section > p{
+         padding-bottom: 2em;
     }
 
     section.normal{
-      background-color: white;
+         background-color: white;
     }
 
     section.imagem{
-     background-color: rgba(0, 0, 0, 0.548);
-     color: white;
+         background-color: rgba(0, 0, 0, 0.521);
+         color: white;
+         box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.603);
+         background-size: cover;
+         background-attachment: fixed;
+
     }
 
     section.imagem > p {
-        background-color: black;
-        display: inline-block;
-        padding: 5px;
+         background-color: rgba(0, 0, 0, 0.356);
+         display: inline-block;
+         padding: 5px;
+         text-shadow: 2px 2px 2px black;
+    }
+
+    section#img1 {
+         background-image: url(imagens/background001.jpg);
+         background-position: right center ;
+    }
+    
+    section#img2{
+         background-image: url(imagens/background002.jpg);
     }
 
     footer{
-        text-align: center;
-        background-color: black;
-        color: white;
-        padding: 5px;
+         text-align: center;
+         background-color: black;
+         color: white;
+         padding: 5px;
     }
